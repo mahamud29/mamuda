@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	 <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link href="jquery-ui.theme.css">
+<link href="main.css" rel="stylesheet" type="text/css">  
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.dialog.min.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.resizable.min.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+  <script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="jQueryAssets/jquery.ui-1.10.4.dialog.min.js"></script>
+	<script type="text/javascript">
+	<script>
+
+		$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+    </script>
+	<script>$(document).ready(function(){
+    $("#h1").mouseleave(function(){
+        alert(""Bye! You now leave page1!"");
+    });
+});
+</script>
+	<script>
+$(document).ready(function(){
+    $("p1").dblclick(function(){
+        $(this).hide();
+    });
+});
+</script>
+	
+	<script>
+// Initialize google maps
+function myMap() {
+  var myCenter = new google.maps.LatLng(51.508742,-0.120850);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 12};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+	<script type="text/javascript">
+$(function() {
+	$( "#Dialog1" ).dialog(); 
+});
+</script>
+
+	
+<title>KurdTechCompany </title>
+	
+</head>
+	
+<body>
+<div id="container">
+   
+<header><div id="header">Kurdtech Company</div></header>
+  <div id="Tabs1">
+		
+  <ul>
+    <li><a href="#tabs-1">HOME</a></li>
+    <li><a href="#tabs-2">NEWS</a></li>
+    <li><a href="#tabs-3">PHOTO</a></li>
+	  <li><a href="#tabs-4">BIO</a></li>
+  </ul>
+
+ <div id="tabs-1">
+	 <h2>Kurdtech</h2>
+	 <p><strong>Company Description</strong>: It is one of the biggest company in the world! Its adaptive learning platform is based on decades of research into psychometrics, item response theory, cognitive learning theory, and intelligent tutoring systems. It collects data on students as they complete tasks, recording their learning preferences, strengths and weaknesses. It then creates personalized lessons for each student to maximize learning. Knewton has had real success, with Arizona State University seeing a
+	   <mark>17% increase in pass rates</mark>
+	   once Knewton was incorporated into their math courses.<br>
+      </p>
+ </div>
+		
+		<div id="tabs-2">
+			</div>
+ 
+		
+		<div id="tabs-3">
+    </div>
+		
+		<div id="tabs-4">
+			
+	</div>
+	</div>
+  
+  <br><div class="container1">
+	<h2>Responsive "Meet The Team" Section</h2>
+<br>
+<br>
+
+<br><div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="pictures/C360_2015-07-17-12-23-56-194_1.jpg" alt="Mahamud" style="width:100%">
+      <div class="container1">
+        <h2>Mahamud Ali</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Instructional Systems Design, Classroom Instruction, Computer-based Training Development/Programming, Quality Assurance, and Customer Interaction.</p>
+        <p>mahamud.ali1983@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="pictures/image-0-02-04-944798fc2731b1c04d16abb9ced9ce01e6c193ff32a4e6c83f14e149d959658d-V.jpg" alt="Khanda" style="width:100%">
+      <div class="container1">
+        <h2>Khanda Robert</h2>
+        <p class="title">Art Director</p>
+		  <p>Instructional Systems Design, Classroom Instruction, Computer-based Training Development/Programming,Quality Assurance, and Customer Interaction.</p>
+        <p>mahamud.ali1983@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="pictures/FB_IMG_1446910276935.jpg" alt="Rawand" style="width:100%">
+      <div class="container1">
+        <h2>Mhamad Alit</h2>
+        <p class="title">Designer</p>
+        <p>Instructional Systems Design, Classroom Instruction, Computer-based Training Development/Programming, Quality Assurance, and Customer Interaction.</p>
+        <p>mahamud.ali1983@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+	
+	<div id="backgroundimg">
+		<div id="Dialog1">One of the most popular classroom behavior management apps is Kurd Tech. Kurd Techallows teachers to track positive and negative behaviors for each student with just a few clicks. </div>
+		
+	   
+		
+	   <div id="article1"> <article><a href="page2.html"><h1>Kurd Tech</h1></a>
+		   
+		   <p><b>Company Description:</b> Kurd Tech is an adaptive learning technology. Its adaptive learning platform is based on decades of research into psychometrics, item response theory, cognitive learning theory, and intelligent tutoring systems. It collects data on students as they complete tasks, recording their learning preferences, strengths and weaknesses. It then creates personalized lessons for each student to maximize learning. Knewton has had real success, with Arizona State University seeing a 17% increase in pass rates once Knewton was incorporated into their math courses.</p><br>
+	  <p><b>Company Description</b>: Knewton is an adaptive learning technology. Its adaptive learning platform is based on decades of research into psychometrics, item response theory, cognitive learning theory, and intelligent tutoring systems. It collects data on students as they complete tasks, recording their learning preferences, strengths and weaknesses. It then creates personalized lessons for each student to maximize learning. Knewton has had real success, with Arizona State University seeing a 17% increase in pass rates once Knewton was incorporated into their math courses.</p><br>
+<p><b><br>How They Are Transforming the EdTech Space:</b> Knewton provides educators with the information that they need to help students be successful in the classroom and in life. Its platform makes instructional recommendations based on the student’s current level of academic performance, ability, aptitude, etc., and assists educators with setting goals for individual students. This helps teachers to provide students differentiated instruction and timely interventions. Also, students can see how they are progressing academically, and administrators and parents can get valuable insights. Knowledge is power in this world, and having real-time information about how students are progressing towards mastering skills and goals is a powerful tool for educators. We predict that tools like this will help the US education system to close the achievement gaps in the coming decade.</p><br>
+
+<p><br><b>Twitter:</b><mark> @kurdtech</mark><br>
+
+<br><b>Email:</b><mark> support@kurdtech.com</mark>
+</p></article></div>
+	
+	<div id="article2"><article><a href="page3.html"><h3> Kurd Tech app</h3></a><p></p><br>One of the most popular classroom behavior management apps is <strong>Kurd Tech</strong>. <strong>Kurd Tech</strong>allows teachers to track positive and negative behaviors for each student with just a few clicks. Each student has a unique icon which teachers can click on and note behaviors. Students earn points for good behaviors and lose points for bad behaviors, so it’s easy to incorporate ClassDojo in with a classroom reward system.<br>
+
+<p><br>The reason that <strong>Kurd Tech</strong> is so popular is that it keep parents in the loop. Parents can get updates on how their child’s behavior was that day. If their child gained or lost points, they could see why. Students can also get alerts when their teacher adds or takes away points, so they know what they did without a verbal redirect in front of the class. This app allows parent and teachers to work together to nip behavior problems in the bud before they cause students to experience academic failure, which is a major factor when it comes to the decision to drop out.<br>
+<br>Kurd Tech markets themselves as a “complete parent-teacher communication solution.” Kurd Tech believes that collaborating with parents is key to student success. This edtech platform creates an inclusive classroom community for teachers, students, and parents. Up-to-date schedules, newsletters, and important announcements are all available through Kurd tech as well as a space for organizing events, recruiting volunteers and discussing ideas. “Kurd Tech’s mission is to help teachers engage parents in the classroom by handling the busy work,” says Mahamud Ali, CEO, and co-founder of Kurd Tech. “Our service is carefully crafted to simplify logistics and communications issues in classrooms</p></article></div>
+
+<div id="article3"><article><a href="https://www.sciencedaily.com/releases/2018/03/180305093005.htm"><h5>Teaching Computer to Learn Like Humans</h5></a><p><b>A new study by Paul Rad, assistant director of the UTSA Open Cloud Institute, and Nicole Beebe, Melvin Lachman Distinguished Professor in Entrepreneurship and director of the UTSA Cyber Center for Security and Analytics, describes a new cloud-based learning platform for artificial intelligence (A.I.) that teaches machines to learn like humans.</b><br>
+
+<br>"Cognitive learning is all about teaching computers to learn without having to explicitly program them," Rad said. "In this study, we're presenting an entirely new platform for machine learning to teach computers to learn the way we do."<br>
+
+<br>To build the cloud-based platform, Rad and Beebe studied how education and understanding has evolved over the past five centuries. They wanted to gain a better picture of how computers could be taught to approach deductive reasoning.<br>
+
+<br>"Our goal here is to teach the machine to become smarter, so that it can help us. That's what they're here to do," Rad said. "So how do we become better? We learn from experience."<br>
+
+<br>The UTSA researchers also studied how humans learn across their lifetimes. Children, for example, begin by identifying objects such as faces and toys, then move on from there to understand communication. This process helps their thought processes mature as they get older.<br>
+
+<br>Ultimately, Rad and Beebe want AI agents to learn automatic threat detection. This means the AI agent can dynamically learn network traffic patterns and normal behavior and thus become more effective in discovering and thwarting new attacks before significant damage.<br>
+
+
+<br>Story Source:<br>
+
+<br>Materials provided by University of Texas at San Antonio. Note: Content may be edited for style and length.
+	</p></article></div>
+	
+<div id="article4"><article><a href="page2.html"><h7>How technology will shape the future of education and IT</h7></a><br>
+	<img src="pictures/-1496761946.jpg" id="img" alt="future education">
+	<p1>Technology has previously been seen as a disruptive influence in the classroom, but this perception is changing.</p1><br>
+
+
+<p1><br>
+  <em>By Andy Hill, Commercial Director EMEA at Legrand’s Data Communications division</em></p1>
+
+<p>From the apps that are changing how we shop, eat and communicate, to cloud computing that can make anywhere a place of work, technology is moving quickly, and society is having to adapt just as fast.
+
+We have come a long way since the days of chalkboards, but the UK’s educational sector is arguably lagging behind when it comes to building a connected learning environment suited for today’s “digital natives”. The sector must modernise and adapt, in order to provide children and students with the skills they will need as part of a modern workforce.</p><br>
+
+	<p><br>Thankfully, new hardware and software are emerging constantly to provide teachers with the tools they need to engage their students. Knowing what these technologies are is half the battle, so here’s a quick guide:<br>
+<b><br><a href="https://edtechnology.co.uk/Article/how-technology-will-shape-the-future-of-education">Tablets & smartphones</a></b><br> </p>
+	</article></div>
+	</div>
+	</div>
+
+<div class="container3">
+	
+  <form action="/action_page.php">
+	  <h2>Contact Form</h2>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+		
+	<div id="footer">
+		<footer>Copyright © Kurdtech.com</footer>
+		
+	</div>
+	
+	
+
+</body>
+</html>
